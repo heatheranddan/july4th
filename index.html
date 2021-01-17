@@ -242,44 +242,7 @@ But in the meantime,</h1><br>
   });
 </script>
 
-<script>
-var isMobile = {
-                Android: function() {
-                    return navigator.userAgent.match(/Android/i);
-                },
-                BlackBerry: function() {
-                    return navigator.userAgent.match(/BlackBerry/i);
-                },
-                iOS: function() {
-                    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-                },
-                Opera: function() {
-                    return navigator.userAgent.match(/Opera Mini/i);
-                },
-                Windows: function() {
-                    return navigator.userAgent.match(/IEMobile/i);
-                },
-                any: function() {
-                    return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-                }
-            };
 
-            $(document).ready(function() {
-                if (isMobile) {
-                    $(".section1Paral").css("background-attachment", "scroll");
-                };
-            });
-
-            if( !isMobile.any() )
-                $(function(){
-                        $.stellar({
-                            horizontalScrolling: false,
-                            // Refreshes parallax content on window load and resize
-                            responsive: true,
-                            verticalOffset: 40
-                        });
-            });
-</script>
 
 </body>
 </html>
