@@ -23,6 +23,14 @@ jQuery(document).ready(function( $ ) {
 			$('#theMenu').toggleClass('menu-open');
 	  });
 
+
+	      // Init Stellar
+	      $.stellar({
+	        horizontalScrolling: false,
+	        verticalOffset: 40
+	      });
+
+
     // Init Fancybox
     jQuery(".fancybox").fancybox();
 
