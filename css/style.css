@@ -398,11 +398,11 @@ canvas {
 
 /* Separator About - Parallax Section */
 .sep {
-
+  background-attachment: fixed;
 	background-position: 50% 0;
 	background-repeat: no-repeat;
 	height: 850px;
-	position: absolute;
+	position: relative;
 }
 .about {
 	background-image: url(../img/portfolio/RIDGE5.jpg);
@@ -688,15 +688,15 @@ canvas {
   text-align: center;
 }
 
-#copyrights p {
+#copyrights h5 {
   margin-bottom: 5px;
   color: #fff;
 }
 
 #copyrights a {
-  color: #ff8163;
+  color: #ff0000;
 }
 
 .credits {
-  color: #999;
+  color: #;
 }
