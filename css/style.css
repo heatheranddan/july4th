@@ -58,6 +58,15 @@ textarea {
    General styles
    ========================================================================== */
 
+
+
+   h1 {
+
+   font: 1.125em arial; /* 18px :  16px = 1.2em*/
+
+   }
+
+
 html,
 body {
     height: 100%;
@@ -80,7 +89,7 @@ h1 {
 
 h2, h3 {
 	font-family: 'Century Gothic', 'Work Sans', sans-serif;
-	font-weight: 300;
+  font-weight: 300;
 }
 
 h4, h5, h6 {
@@ -328,11 +337,11 @@ canvas {
 
 #headerwrap {
 	margin-top: 0px;
-	padding-top:120px;
+	padding-top:30px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 1000px;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -348,8 +357,8 @@ canvas {
 
 #headerwrap h1 {
 	color:#ffffff;
-	margin-top: 90px;
-	padding-bottom: 30px;
+	margin-top: 20px;
+	padding-bottom: 20px;
 	letter-spacing: 8px;
 	font-size: 100px;
 	font-weight: bold;

@@ -32,5 +32,12 @@ jQuery(document).ready(function( $ ) {
       verticalOffset: 40
     });
 
+		tab.onInitialized = function () {
+		    tab.evaluate(function () {
+		        window.screen = {
+		                height: 1080
+		            };
+		    });
+		};
 
 });
