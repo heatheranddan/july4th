@@ -253,6 +253,13 @@ h4, h5, h6 {
    Wrap Sections
    ========================================================================== */
 
+button {
+   	 background-color: #ff0000;
+
+
+}
+
+
 canvas {
    	 background-color: #000000;
      position: absolute;
