@@ -58,15 +58,6 @@ textarea {
    General styles
    ========================================================================== */
 
-
-
-   h1 {
-
-   font: 1.125em arial; /* 18px :  16px = 1.2em*/
-
-   }
-
-
 html,
 body {
     height: 100%;
@@ -341,7 +332,7 @@ canvas {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 1000px;
+	min-height: 1400px;
 	width: 100%;
 
     -webkit-background-size: 100%;
