@@ -404,6 +404,10 @@ canvas {
 	height: 850px;
 	position: relative;
 }
+.aboot {
+	background-image: url(../img/portfolio/RIDGE1.jpg);
+}
+
 .about {
 	background-image: url(../img/portfolio/RIDGE5.jpg);
 }
@@ -461,7 +465,7 @@ canvas {
 }
 
 .service {
-	text-align: left;
+	text-align: center;
 }
 
 .service small {
@@ -470,7 +474,6 @@ canvas {
 }
 
 .service i {
-	float: left;
 	margin-right: 15px;
 	font-size: 30px;
 	vertical-align: middle;
