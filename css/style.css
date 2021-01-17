@@ -398,11 +398,11 @@ canvas {
 
 /* Separator About - Parallax Section */
 .sep {
-	background-attachment: fixed;
+
 	background-position: 50% 0;
 	background-repeat: no-repeat;
 	height: 850px;
-	position: relative;
+	position: absolute;
 }
 .about {
 	background-image: url(../img/portfolio/RIDGE5.jpg);
