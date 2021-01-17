@@ -26,18 +26,5 @@ jQuery(document).ready(function( $ ) {
     // Init Fancybox
     jQuery(".fancybox").fancybox();
 
-    // Init Stellar
-    $.stellar({
-      horizontalScrolling: false,
-      verticalOffset: 40
-    });
-
-		tab.onInitialized = function () {
-		    tab.evaluate(function () {
-		        window.screen = {
-		                height: 1080
-		            };
-		    });
-		};
 
 });
