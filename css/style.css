@@ -252,13 +252,6 @@ h4, h5, h6 {
    Wrap Sections
    ========================================================================== */
 
-   @font-face {
-   font-family: 'Bacalisties Regular';
-   font-style: normal;
-   font-weight: normal;
-   src: local('Bacalisties Regular'), url('Bacalisties-2OnXo.woff') format('woff');
-   }
-
 canvas {
    	 background-color: #000000;
      position: absolute;
