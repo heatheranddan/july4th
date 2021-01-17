@@ -399,11 +399,15 @@ canvas {
 
 /* Separator About - Parallax Section */
 .sep {
-  background-attachment: fixed;
+  background-attachment: scroll;
 	background-position: 50% 0;
 	background-repeat: no-repeat;
 	height: 450px;
 	position: relative;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .aboot {
 	background-image: url(../img/portfolio/RIDGE1.jpg);
