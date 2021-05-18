@@ -254,10 +254,17 @@ h4, h5, h6 {
    ========================================================================== */
 
 button {
-   	 background-color: #ff0000;
-
-
+   	 background-color: #660000;
+     width: 220px;
+     height: 80px;
+     margin: 4 4px;
+     border-radius: 16px;
+     border: none;
+     color: white;
+     text-align: center;
+     text-decoration: none;
 }
+
 
 
 canvas {
